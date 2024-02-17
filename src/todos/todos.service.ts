@@ -6,7 +6,7 @@ export class TodosService {
         name: 'ulul as always'
     }];
 
-    findAll(): any[] {
+    async findAll(): Promise<any[]> {
         return this.todos;
     }
 }
